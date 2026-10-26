@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Curious Learner — a small personal homepage about learning, building, and asking better questions.">
+  <meta name="theme-color" content="#f4f1e8">
+  <title>Curious Learner — Learning by building</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#main" aria-label="Curious Learner home">c<span aria-hidden="true">↗</span></a>
+    <span class="header-note">A SMALL NOTEBOOK OF IDEAS</span>
+    <a class="header-link" href="#about">Meet the learner <span aria-hidden="true">↓</span></a>
+  </header>
+
+  <main id="main">
+    <section class="intro" aria-labelledby="intro-title">
+      <div class="intro-copy">
+        <p class="eyebrow"><span class="dot" aria-hidden="true"></span> HELLO, I'M CURIOUS LEARNER</p>
+        <h1 id="intro-title">Small ideas.<br>Real things.<br><em>New questions.</em></h1>
+        <p class="intro-text">I like learning how things work.<br>This is my small corner for exploring code,<br>useful tools, and the ideas behind them.</p>
+        <a class="text-link" href="#notebook">Open the learning notebook <span aria-hidden="true">↓</span></a>
+      </div>
+      <figure class="field-study" aria-labelledby="study-caption">
+        <svg viewBox="0 0 460 460" role="img" aria-labelledby="study-title study-description">
+          <title id="study-title">A study in iteration</title>
+          <desc id="study-description">Overlapping elliptical paths on a grid form an abstract loop, representing learning through repeated observation and practice.</desc>
+          <defs>
+            <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse"><path d="M46 0H0V46" fill="none" stroke="currentColor" stroke-width=".6" opacity=".26"/></pattern>
+          </defs>
+          <rect x="1" y="1" width="458" height="458" fill="url(#grid)" stroke="currentColor" stroke-width=".6"/>
+          <g fill="none" stroke="currentColor" stroke-width="1.2">
+            <ellipse cx="230" cy="230" rx="202" ry="80" transform="rotate(-45 230 230)"/>
+            <ellipse cx="230" cy="230" rx="181" ry="103" transform="rotate(-35 230 230)"/>
+            <ellipse cx="230" cy="230" rx="160" ry="126" transform="rotate(-25 230 230)"/>
+            <ellipse cx="230" cy="230" rx="139" ry="149" transform="rotate(-15 230 230)"/>
+            <ellipse cx="230" cy="230" rx="118" ry="172" transform="rotate(-5 230 230)"/>
+            <ellipse cx="230" cy="230" rx="97" ry="195" transform="rotate(5 230 230)"/>
+            <ellipse cx="230" cy="230" rx="76" ry="218" transform="rotate(15 230 230)"/>
+            <path d="M1 230H459M230 1V459" stroke-dasharray="3 6" opacity=".5"/>
+          </g>
+          <circle cx="230" cy="230" r="7" fill="#e7ff65" stroke="currentColor"/>
+          <path d="M18 32V18H32M428 18H442V32M442 428V442H428M32 442H18V428" fill="none" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        <figcaption id="study-caption"><span>FIG. 01 — A STUDY IN ITERATION</span><span>OBSERVE → BUILD → LEARN</span></figcaption>
+      </figure>
+    </section>
+
+    <section class="notebook" id="notebook" aria-labelledby="notebook-title">
+      <div class="section-heading"><h2 id="notebook-title">The learning notebook</h2><span>THREE IDEAS TO KEEP / 01—03</span></div>
+      <article class="note">
+        <span class="note-number" aria-hidden="true">01</span>
+        <div><h3>Keep the story of a change.</h3><p>A useful project has a history. Git records chosen changes as commits, so different versions can be compared and understood.</p></div>
+        <span class="note-topic">VERSION CONTROL</span>
+      </article>
+      <article class="note">
+        <span class="note-number" aria-hidden="true">02</span>
+        <div><h3>Make something you can open.</h3><p>A few HTML and CSS files can become a place to introduce an idea. Clear content matters as much as how the page looks.</p></div>
+        <span class="note-topic">BUILDING FOR THE WEB</span>
+      </article>
+      <article class="note">
+        <span class="note-number" aria-hidden="true">03</span>
+        <div><h3>Let evidence guide the next step.</h3><p>An assistant can request a tool, receive its result, and decide what to do next. A useful answer starts with checking what is actually known.</p></div>
+        <span class="note-topic">THE AGENT LOOP</span>
+      </article>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <p class="eyebrow">A LITTLE ABOUT ME</p>
+      <h2 id="about-title">Ask a question.<br>Try an idea.<br><em>Look again.</em></h2>
+      <div class="about-copy"><p>I go by Curious Learner here. I enjoy turning a question into a small experiment, then using what happens to ask a better question.</p><p>This notebook is a place to keep those ideas simple, visible, and open to revision.</p><a class="text-link" href="#notebook">Back to the notebook <span aria-hidden="true">↑</span></a></div>
+    </section>
+  </main>
+
+  <footer><span>CURIOUS LEARNER / PERSONAL HOMEPAGE</span><a href="#main">Back to the top ↑</a><span>MADE WITH CURIOSITY.</span></footer>
+</body>
+</html>
